@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 11 07:51:14 2021
-
-@author: User
-"""
-
 # Import pygame
 import pygame
 # Initialize pygame
@@ -40,7 +33,7 @@ while carryOn:
     # Display scaled yellow car image on screen at location (40,400)
     screen.blit(yellow_car_scaled,(40,400))
     
-    # Load the red car image name with extension in a variable "red_car_name"
+    # Store the red car image name with extension in a variable "red_car_name"
     red_car_name = "           "
     # Load the red car image and store it in a variable "red_car"
     red_car = pygame.image.load(            ).convert_alpha()
